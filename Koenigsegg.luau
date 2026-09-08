@@ -6,8 +6,8 @@ if Existing then
     Existing:Destroy()
 end
 
-local PvPUrl = "loadstring(game:HttpGet('https://raw.githubusercontent.com/cssForsaplon/fxckIT/main/BledniePo4ki.luau'))()"
-local FarmUrl = "loadstring(game:HttpGet('https://raw.githubusercontent.com/cssForsaplon/haha/main/haha.luau'))()"
+local PvPUrl = loadstring(game:HttpGet('https://raw.githubusercontent.com/cssForsaplon/fxckIT/main/BledniePo4ki.luau'))()
+local FarmUrl = loadstring(game:HttpGet('https://raw.githubusercontent.com/cssForsaplon/haha/main/haha.luau'))()
 
 local B64 = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/"
 local function Decode(Data)
